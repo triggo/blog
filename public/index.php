@@ -23,6 +23,5 @@ $router->add('posts/store', ['controller' => 'Post', 'action' => 'store']);
 $router->add('posts/show', ['controller' => 'Post', 'action' => 'show']);
 $router->add('posts/edit', ['controller' => 'Post', 'action' => 'edit']);
 $router->add('posts/delete', ['controller' => 'Post', 'action' => 'delete']);
-$router->add('{controller}/{action}');
-    
+
 $router->dispatch($_SERVER['QUERY_STRING']);

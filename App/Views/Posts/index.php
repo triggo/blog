@@ -60,7 +60,7 @@
                     <td><?php echo $post['description'] ?></td>
                     <td><?php echo $post['last_date'] ?></td>
                     <td>
-                        <a href="/posts/edit/<?php echo $post['id'] ?>">ред.</a>
+                        <a href="/posts/edit?id=<?php echo $post['id'] ?>">ред.</a>
                         <span class="del" data-id="<?php echo $post['id'] ?>">удал.</span>
                     </td>
                 </tr>

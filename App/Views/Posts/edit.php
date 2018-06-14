@@ -24,17 +24,17 @@
     <h2>Создание поста</h2>
 
     <div class="container-fluid h-100">
-        <h3>Добавление поста</h3>
+        <h3>Редактирование поста</h3>
         <div class="row justify-content-center align-items-center h-100">
             <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-5">
-                <form name="createPostForm" class="mt-4" method="post" enctype="multipart/form-data">
+                <form name="editPostForm" class="mt-4" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="title">Заголовок</label>
-                        <input type="text" class="form-control" id="title" name="title">
+                        <input type="text" class="form-control" id="title" name="title" value="">
                     </div>
                     <div class="form-group">
                         <label for="description">Tекст</label>
-                        <input type="text" class="form-control" id="description" name="description">
+                        <input type="text" class="form-control" id="description" name="description" value="">
                     </div>
                     <div class="form-group uploadBlock">
                         <label>Загрузить фото</label>
@@ -49,7 +49,7 @@
             </div>
         </div>
     </div>
-    <script src="/js/posts/create.js"></script>
+    <script src="/js/posts/edit.js"></script>
 </div>
 </body>
 </html>

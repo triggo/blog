@@ -72,6 +72,22 @@ class Post extends Controller
     }
 
     /**
+     * Edit post form
+     */
+    public function editAction()
+    {
+        View::render('Posts/edit.php');
+    }
+
+    /**
+     * Update post in DB
+     */
+    public function updateAction()
+    {
+        //
+    }
+
+    /**
      * Remove post from DB
      */
     public function deleteAction()

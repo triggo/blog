@@ -2,16 +2,11 @@
 
 namespace App\Controllers;
 
+use Core\Controller;
 use \Core\View;
 
-/**
- * Home controller
- *
- * PHP version 7.0
- */
-class Home extends \Core\Controller
+class Home extends Controller
 {
-
     /**
      * Show the index page
      *
@@ -19,7 +14,6 @@ class Home extends \Core\Controller
      */
     public function indexAction()
     {
-//        View::renderTemplate('Home/index.php');
         View::render('Home/index.php');
     }
 }
